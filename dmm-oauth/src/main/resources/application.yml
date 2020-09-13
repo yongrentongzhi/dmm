@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: auth-server
+  redis:
+    database: 0
+    host: 192.168.152.134
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+    timeout: 100ms
+  datasource:
+    druid:
+     url: jdbc:mysql://192.168.152.134:3306/B2Cmall_user
+     password: YTjkl220015@mysql
+     username: root
+     driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+server:
+  port: 6001
+
+management:
+  endpoint:
+    health:
+      enabled: true

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="common" />
+      <module name="dmm" />
+      <module name="dmm-eureka" />
+      <module name="dmm-service" />
+      <module name="dmm-service-file" />
+      <module name="dmm-service-goods" />
+      <module name="dmm-oauth" />
+      <module name="dmm-service-user" />
+      <module name="dmm-service-shoppingCart" />
+      <module name="dmm-gateway" />
+      <module name="dmm-service-search" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d93b79c2-8393-4bcf-9bed-2416e4305597" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="log4j2config" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\MavenRepository" />
+        <option name="mavenHome" value="F:\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hDGE29ttg6Q1UouTxqoT6JjUnL" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.50689656" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\dmm\dmm-service" />
+      <recent name="E:\dmm\common\src\main\resources\mapper\common" />
+      <recent name="E:\dmm\dmm-service\dmm-service-goods\src\main\resources\mapper" />
+      <recent name="E:\dmm\dmm-service\dmm-service-goods\src\main\java\com\dmm\goods\dao" />
+      <recent name="E:\dmm\common\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dmm.file" />
+      <recent name="com.dmm.goodsService" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dmm\dmm-service\dmm-service-search\src\main\resources" />
+      <recent name="E:\dmm\dmm-service\dmm-service-search\src\main\java\com\dmm\search" />
+      <recent name="E:\dmm\dmm-service\dmm-service-file\src\main\resources" />
+      <recent name="E:\dmm\dmm-service\dmm-service-user\src\main\resources" />
+      <recent name="E:\dmm\dmm-service\dmm-service-shoppingCart\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dmm.search.service" />
+      <recent name="com.dmm.search.feign" />
+      <recent name="com.dmm.search" />
+      <recent name="com.dmm.search.controller" />
+      <recent name="com.dmm.goods.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dmm.oauth.config" />
+      <recent name="com.dmm.goods.service.impl" />
+      <recent name="com.dmm.file.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.FileTest.upload">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmm.goods.CodeGenerator" />
+      <module name="dmm-service-goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmm.goods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileServiceTest.uploadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmm-service-file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmm.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dmm.file" />
+      <option name="MAIN_CLASS_NAME" value="com.dmm.file.FileServiceTest" />
+      <option name="METHOD_NAME" value="uploadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmm-service-file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmm.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dmm.file" />
+      <option name="MAIN_CLASS_NAME" value="com.dmm.file.FileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTest.upload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmm-service-file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmm.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dmm.file" />
+      <option name="MAIN_CLASS_NAME" value="com.dmm.file.FileTest" />
+      <option name="METHOD_NAME" value="upload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UidGeneratorTest.getUid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmm.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dmm.common" />
+      <option name="MAIN_CLASS_NAME" value="com.dmm.common.UidGeneratorTest" />
+      <option name="METHOD_NAME" value="getUid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FileTest.upload" />
+        <item itemvalue="JUnit.FileServiceTest.uploadTest" />
+        <item itemvalue="JUnit.FileTest" />
+        <item itemvalue="JUnit.UidGeneratorTest.getUid" />
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d93b79c2-8393-4bcf-9bed-2416e4305597" name="Default Changelist" comment="" />
+      <created>1599538135203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599538135203</updated>
+      <workItem from="1599538136753" duration="2217000" />
+      <workItem from="1599541698141" duration="2504000" />
+      <workItem from="1599547081274" duration="8172000" />
+      <workItem from="1599555868889" duration="14440000" />
+      <workItem from="1599573265108" duration="5130000" />
+      <workItem from="1599698938976" duration="3359000" />
+      <workItem from="1599709350081" duration="3333000" />
+      <workItem from="1599732615601" duration="15966000" />
+      <workItem from="1599796331973" duration="16128000" />
+      <workItem from="1599879526963" duration="19838000" />
+      <workItem from="1599926072007" duration="982000" />
+      <workItem from="1599927120877" duration="428000" />
+      <workItem from="1599927930147" duration="814000" />
+      <workItem from="1599928786952" duration="4863000" />
+      <workItem from="1600012119603" duration="1448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="267" y="19" key="#Inspections" timestamp="1599928722950">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1599928722950" />
+    <state x="121" y="0" key="#Project_Structure" timestamp="1599893404250">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1599893404250" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599573759276">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1599573759276" />
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1599924912005">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1599924912005" />
+    <state x="345" y="90" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1599831064809">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="345" y="90" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1599831064809" />
+    <state x="450" y="263" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599838709123">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="263" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1599838709123" />
+    <state x="357" y="207" width="566" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599708046951">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="357" y="207" width="566" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1599708046951" />
+    <state x="357" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599753303656">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="357" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1599753303656" />
+    <state x="350" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599551935099">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="350" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1599551935099" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599922159003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599922159003" />
+    <state x="357" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599744866636">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="357" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1599744866636" />
+    <state x="642" y="121" key="FileChooserDialogImpl" timestamp="1599920207077">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="642" y="121" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599920207077" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1599838830344">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599838830344" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1599838830343">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599838830343" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1599838830343">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599838830343" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1599838830343">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599838830343" />
+    <state width="901" height="301" key="GridCell.Tab.1.bottom" timestamp="1599707772905">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="901" height="301" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599707772905" />
+    <state width="901" height="301" key="GridCell.Tab.1.center" timestamp="1599707772904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="901" height="301" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599707772904" />
+    <state width="901" height="301" key="GridCell.Tab.1.left" timestamp="1599707772904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="901" height="301" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599707772904" />
+    <state width="901" height="301" key="GridCell.Tab.1.right" timestamp="1599707772905">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="901" height="301" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599707772905" />
+    <state x="221" y="83" key="IDE.errors.dialog" timestamp="1599555971387">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="83" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1599555971387" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599555046278">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1599555046278" />
+    <state x="25" y="0" key="SettingsEditor" timestamp="1599928705665">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="25" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599928705665" />
+    <state x="0" y="0" width="605" height="680" key="find.popup" timestamp="1599708383428">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="605" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599708383428" />
+    <state x="274" y="1" key="new project wizard" timestamp="1599838451753">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="274" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1599838451753" />
+    <state x="258" y="177" width="672" height="678" key="search.everywhere.popup" timestamp="1599811897262">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="258" y="177" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1599811897262" />
+  </component>
+</project>

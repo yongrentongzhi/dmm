@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm.iml" filepath="$PROJECT_DIR$/dmm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-eureka/dmm-eureka.iml" filepath="$PROJECT_DIR$/dmm-eureka/dmm-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-gateway/dmm-gateway.iml" filepath="$PROJECT_DIR$/dmm-gateway/dmm-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-oauth/dmm-oauth.iml" filepath="$PROJECT_DIR$/dmm-oauth/dmm-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-service/dmm-service.iml" filepath="$PROJECT_DIR$/dmm-service/dmm-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-service/dmm-service-file/dmm-service-file.iml" filepath="$PROJECT_DIR$/dmm-service/dmm-service-file/dmm-service-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-service/dmm-service-goods/dmm-service-goods.iml" filepath="$PROJECT_DIR$/dmm-service/dmm-service-goods/dmm-service-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-service/dmm-service-search/dmm-service-search.iml" filepath="$PROJECT_DIR$/dmm-service/dmm-service-search/dmm-service-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-service/dmm-service-shoppingCart/dmm-service-shoppingCart.iml" filepath="$PROJECT_DIR$/dmm-service/dmm-service-shoppingCart/dmm-service-shoppingCart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-service/dmm-service-user/dmm-service-user.iml" filepath="$PROJECT_DIR$/dmm-service/dmm-service-user/dmm-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-web/dmm-web.iml" filepath="$PROJECT_DIR$/dmm-web/dmm-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-web/dmm-web-item/dmm-web-item.iml" filepath="$PROJECT_DIR$/dmm-web/dmm-web-item/dmm-web-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-web/dmm-web-search/dmm-web-search.iml" filepath="$PROJECT_DIR$/dmm-web/dmm-web-search/dmm-web-search.iml" />
+    </modules>
+  </component>
+</project>

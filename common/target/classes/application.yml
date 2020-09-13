@@ -1,0 +1,15 @@
+server:
+  port: 6001
+spring:
+  application:
+    name: UidGenerator
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.152.134:3306/UidGenerator
+      password: YTjkl220015@mysql
+      username: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*/*.xml

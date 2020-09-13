@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dmm-service-file" />
+        <module name="dmm-service-goods" />
+        <module name="common" />
+        <module name="dmm-gateway" />
+        <module name="dmm-web-search" />
+        <module name="dmm-oauth" />
+        <module name="dmm-service-user" />
+        <module name="dmm-eureka" />
+        <module name="dmm-web-item" />
+        <module name="dmm-service-shoppingCart" />
+        <module name="dmm-service-search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.11" />
+      <module name="dmm" target="1.11" />
+      <module name="dmm-eureka" target="1.11" />
+      <module name="dmm-gateway" target="1.11" />
+      <module name="dmm-oauth" target="1.11" />
+      <module name="dmm-service" target="1.11" />
+      <module name="dmm-service-file" target="1.11" />
+      <module name="dmm-service-goods" target="1.11" />
+      <module name="dmm-service-search" target="1.11" />
+      <module name="dmm-service-shoppingCart" target="1.11" />
+      <module name="dmm-service-user" target="1.11" />
+      <module name="dmm-web" target="1.11" />
+      <module name="dmm-web-item" target="1.11" />
+      <module name="dmm-web-search" target="1.11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="dmm-eureka" options="-parameters" />
+      <module name="dmm-gateway" options="-parameters" />
+      <module name="dmm-oauth" options="-parameters" />
+      <module name="dmm-service" options="-parameters" />
+      <module name="dmm-service-file" options="-parameters" />
+      <module name="dmm-service-goods" options="-parameters" />
+      <module name="dmm-service-search" options="-parameters" />
+      <module name="dmm-service-shoppingCart" options="-parameters" />
+      <module name="dmm-service-user" options="-parameters" />
+      <module name="dmm-web" options="-parameters" />
+      <module name="dmm-web-item" options="-parameters" />
+      <module name="dmm-web-search" options="-parameters" />
+    </option>
+  </component>
+</project>

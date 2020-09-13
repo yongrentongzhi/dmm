@@ -1,0 +1,27 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: goods
+  datasource:
+    url: jdbc:mysql://192.168.152.134:3306/B2Cmall_goods
+    password: YTjkl220015@mysql
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+mybatis-plus:
+  mapper-locations: classpath:mapper/*/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:7001/eureka7001/
+feign:
+  hystrix:
+    enabled: true

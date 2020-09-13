@@ -1,0 +1,20 @@
+server:
+  port: 18081
+spring:
+  application:
+    name: goodsService
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.152.134:3306/B2Cmall_goods
+      password: YTjkl220015@mysql
+      username: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapper/BrandMapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+logging:
+  config: classpath:config/log4j2config.xml
+
