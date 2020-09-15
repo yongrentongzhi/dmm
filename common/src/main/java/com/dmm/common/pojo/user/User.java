@@ -3,7 +3,7 @@ package com.dmm.common.pojo.user;
 import java.io.Serializable;
 import java.util.Date;
 
-public class user implements Serializable {
+public class User implements Serializable {
     private Long id;
     private String name;
     private String password;

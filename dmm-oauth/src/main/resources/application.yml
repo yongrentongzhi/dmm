@@ -27,4 +27,9 @@ encrypt:
 server:
   port: 9001
 
-
+auth:
+  ttl: 3600  #token存储到redis的过期时间
+  clientId: dmm
+  clientSecret: dmm
+  cookieDomain: localhost
+  cookieMaxAge: -1
