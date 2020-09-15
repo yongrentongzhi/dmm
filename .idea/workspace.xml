@@ -18,8 +18,646 @@
       <module name="dmm-service-search" />
     </loaded-modules>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d93b79c2-8393-4bcf-9bed-2416e4305597" name="Default Changelist" comment="" />
+    <list default="true" id="d93b79c2-8393-4bcf-9bed-2416e4305597" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/OauthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/controller/LoginRedirectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/controller/UserLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/util/AuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/java/com/dmm/oauth/util/UserJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmm-oauth/src/main/resources/dmm.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dmm/common/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmm/common/pojo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dmm/common/pojo/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmm/common/pojo/StatusCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dmm/common/pojo/goods/Sku.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmm/common/pojo/goods/Sku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-oauth/dmm-oauth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-oauth/dmm-oauth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-oauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-oauth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-oauth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-oauth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-file/dmm-service-file.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-file/dmm-service-file.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-goods/dmm-service-goods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-goods/dmm-service-goods.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-goods/src/main/java/com/dmm/goods/controller/SkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-goods/src/main/java/com/dmm/goods/controller/SkuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-search/dmm-service-search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-search/dmm-service-search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/SearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/SearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/controller/SkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/controller/SkuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/feign/SkuFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/feign/SkuFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/service/SkuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/service/SkuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/service/impl/SkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/java/com/dmm/search/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-shoppingCart/dmm-service-shoppingCart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-shoppingCart/dmm-service-shoppingCart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service-user/dmm-service-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service-user/dmm-service-user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-service/dmm-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmm-service/dmm-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/dmm-web-item.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/java/com/dmm/web/item/ItemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/java/com/dmm/web/item/controller/PageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/java/com/dmm/web/item/service/PageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/java/com/dmm/web/item/service/impl/PageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/1148477873514881024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/1148477943362625536.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-JD-index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-addressList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-cooperation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-getOrderInfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-login-manage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-myOrder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-mycomment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-pay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-payconfirm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-payfail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-paysuccess.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-sampling.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-seckill-index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-seckill-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-seckillOrder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-shop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-shoplogin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-success-cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-weixinpay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/pages-zoom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/widget-cartPanelView.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/css/widget-jquery.autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/autocomplete.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/catalogSearch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/list-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/nav-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/orders.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/productAlso.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/productChoiceness.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/productGuess.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/productInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/productList.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/productRelationship.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/shoplist-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/shoplist.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/data/success.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-moon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-moon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-moon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-moon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-pc.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-pc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-pc.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-pc.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-tb.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-tb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-tb.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-tb.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-touch.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-touch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-touch.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/icon-touch.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/fonts/lll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/Arrow_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/Arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/b2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/b3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/bg-who1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/buy001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/buy002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/buy01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/cooperation_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/down-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/dp01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/dp02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/dp03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/dp04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/empty_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/erweima.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/gocart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/gocart01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/goods1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/gotop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/icon-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/intro01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/intro02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/intro03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/itemlike01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/itemlike02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/itemlike03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/itemlike04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/itemlike05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/itemlike06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/l-m01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/login-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/manage-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/mobile01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/mobile02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/mobile03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/mobile04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/mobile05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/mobile06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/part01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/part02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/part03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/pay5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/phone14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/photo_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/s3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/sampling_head.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/seckillbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/shi_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/shop-intro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/shop-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/shop-part.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/title_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/_/y24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/ad1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/addimg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/ali.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/banner3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/banner4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/barrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/bg0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/brand_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/cartPanelViewIcons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/choosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/duihuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/erweima.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/floor-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/floor-1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/floor-1-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/floor-1-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/floor-1-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/floor-1-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/floor-1-b01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/floor-1-b02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/floor-1-b03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/goods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/interest01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/interest02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/interest03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/interest04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/interest05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/interest06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/like_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/linker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/loginbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/mod-list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/paylogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/qq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/quan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/sina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/today01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/today02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/today03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/today04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/weixin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/wx_cz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/img/zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/model/cartModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/addressList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/city-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/jquery.slideunlock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/login-manage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/person-collect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/person-footmark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/seckill-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/shop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/shoplogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/sm-city-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/pages/updateimg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/plugins/jquery.jqzoom/jquery.jqzoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/plugins/jquery.jqzoom/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/plugins/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/plugins/sui/sui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/static/js/widget/cartPanelView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-item/src/main/resources/templates/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/dmm-web-search.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/java/SearchWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/java/com/dmm/web/search/controller/SkuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-JD-index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-addressList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-cooperation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-getOrderInfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-login-manage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-myOrder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-mycomment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-pay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-payconfirm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-payfail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-paysuccess.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-sampling.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-seckill-index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-seckill-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-seckillOrder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-shop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-shoplogin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-success-cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-weixinpay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/pages-zoom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/widget-cartPanelView.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/css/widget-jquery.autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/autocomplete.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/catalogSearch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/list-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/nav-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/orders.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/productAlso.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/productChoiceness.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/productGuess.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/productInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/productList.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/productRelationship.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/shoplist-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/shoplist.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/data/success.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-moon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-moon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-moon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-moon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-pc.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-pc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-pc.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-pc.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-tb.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-tb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-tb.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-tb.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-touch.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-touch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-touch.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/fonts/icon-touch.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/Arrow_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/Arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/b2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/b3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/bg-who1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/buy001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/buy002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/buy01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/cooperation_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/down-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/dp01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/dp02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/dp03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/dp04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/empty_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/erweima.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/gocart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/gocart01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/goods1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/gotop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/icon-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/intro01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/intro02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/intro03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/itemlike01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/itemlike02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/itemlike03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/itemlike04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/itemlike05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/itemlike06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/l-m01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/login-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/manage-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/mobile01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/mobile02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/mobile03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/mobile04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/mobile05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/mobile06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/part01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/part02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/part03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/pay5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/phone14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/photo_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/s3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/sampling_head.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/seckillbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/shi_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/shop-intro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/shop-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/shop-part.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/title_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/_/y24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/ad1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/addimg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/ali.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/banner3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/banner4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/barrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/bg0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/brand_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/cartPanelViewIcons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/choosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/duihuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/erweima.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/floor-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/floor-1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/floor-1-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/floor-1-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/floor-1-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/floor-1-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/floor-1-b01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/floor-1-b02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/floor-1-b03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/goods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/interest01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/interest02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/interest03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/interest04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/interest05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/interest06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/like_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/linker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/loginbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/mod-list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/paylogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/qq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/quan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/sina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/today01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/today02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/today03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/today04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/weixin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/wx_cz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/img/zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/model/cartModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/addressList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/city-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/jquery.slideunlock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/login-manage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/person-collect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/person-footmark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/seckill-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/shop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/shoplogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/sm-city-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/pages/updateimg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/plugins/jquery.jqzoom/jquery.jqzoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/plugins/jquery.jqzoom/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/plugins/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/plugins/sui/sui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/static/js/widget/cartPanelView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web-search/src/main/resources/templates/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/dmm-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmm-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,10 +667,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="log4j2config" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -44,6 +685,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1hDGE29ttg6Q1UouTxqoT6JjUnL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
@@ -54,9 +698,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dmm-service/dmm-service-search/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dmm-oauth/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,23 +715,21 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\dmm\dmm-service" />
-      <recent name="E:\dmm\common\src\main\resources\mapper\common" />
-      <recent name="E:\dmm\dmm-service\dmm-service-goods\src\main\resources\mapper" />
-      <recent name="E:\dmm\dmm-service\dmm-service-goods\src\main\java\com\dmm\goods\dao" />
-      <recent name="E:\dmm\common\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dmm.oauth.config" />
+      <recent name="com.dmm.goods.service.impl" />
+      <recent name="com.dmm.file.service.impl" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.dmm.file" />
       <recent name="com.dmm.goodsService" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dmm\dmm-oauth\src\main\resources" />
+      <recent name="E:\dmm\dmm-oauth\src\main\java\com\dmm\oauth" />
+      <recent name="E:\dmm\dmm-web\dmm-web-item\src\main\java\com\dmm\web\item" />
       <recent name="E:\dmm\dmm-service\dmm-service-search\src\main\resources" />
       <recent name="E:\dmm\dmm-service\dmm-service-search\src\main\java\com\dmm\search" />
-      <recent name="E:\dmm\dmm-service\dmm-service-file\src\main\resources" />
-      <recent name="E:\dmm\dmm-service\dmm-service-user\src\main\resources" />
-      <recent name="E:\dmm\dmm-service\dmm-service-shoppingCart\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dmm.search.service" />
@@ -95,10 +738,12 @@
       <recent name="com.dmm.search.controller" />
       <recent name="com.dmm.goods.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.dmm.oauth.config" />
-      <recent name="com.dmm.goods.service.impl" />
-      <recent name="com.dmm.file.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\dmm\dmm-service" />
+      <recent name="E:\dmm\common\src\main\resources\mapper\common" />
+      <recent name="E:\dmm\dmm-service\dmm-service-goods\src\main\resources\mapper" />
+      <recent name="E:\dmm\dmm-service\dmm-service-goods\src\main\java\com\dmm\goods\dao" />
+      <recent name="E:\dmm\common\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,6 +763,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,12 +925,24 @@
       <workItem from="1599927120877" duration="428000" />
       <workItem from="1599927930147" duration="814000" />
       <workItem from="1599928786952" duration="4863000" />
-      <workItem from="1600012119603" duration="1469000" />
+      <workItem from="1600012119603" duration="13775000" />
+      <workItem from="1600144822904" duration="4850000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599928722950">
@@ -287,10 +957,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1599573759276" />
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1599924912005">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1600144707027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1599924912005" />
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600144707027" />
     <state x="345" y="90" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1599831064809">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

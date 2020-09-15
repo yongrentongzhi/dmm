@@ -1,23 +1,16 @@
-package com.changgou.search.controller;
+package com.dmm.search.controller;
 
-import com.changgou.search.service.SkuService;
-import entity.Result;
-import entity.StatusCode;
+
+import com.dmm.common.pojo.Result;
+import com.dmm.common.pojo.StatusCode;
+import com.dmm.search.service.SkuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
-/**
- * controller
- * 用于接收页面传递的请求 来测试 导入数据
- * 实现搜索的功能
- *
- * @author www.itheima.com
- * @version 1.0
- * @package com.changgou.search.controller *
- * @since 1.0
- */
+
+
 @RestController
 @CrossOrigin
 @RequestMapping("/search")
@@ -26,13 +19,18 @@ public class SkuController {
     @Autowired
     private SkuService skuService;
 
-    @RequestMapping("/import")
-    public Result importEs() {
+    @RequestMapping("/import/{spuId}")
+    public Result importEs(@PathVariable Long spuId) {
 
-        skuService.importEs();
-        return new Result(true, StatusCode.OK, "导入成功");
+        skuService.importEs(spuId);
+        return new Result( StatusCode.OK,true, "导入成功");
     }
+    @RequestMapping("/export/{spuId}")
+    public Result exportEs(@PathVariable Long spuId) {
 
+        skuService.exportEs(spuId);
+        return new Result( StatusCode.OK,true, "导处成功");
+    }
     /**
      *
      * @param searchMap  搜索的条件 map

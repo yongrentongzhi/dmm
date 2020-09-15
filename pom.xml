@@ -16,7 +16,6 @@
         <module>common</module>
         <module>dmm-oauth</module>
         <module>dmm-gateway</module>
-        <module>dmm-web</module>
 
 
     </modules>

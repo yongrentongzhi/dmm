@@ -17,12 +17,14 @@ spring:
      password: YTjkl220015@mysql
      username: root
      driver-class-name: com.mysql.cj.jdbc.Driver
-
+encrypt:
+  key-store:
+    location: classpath:/dmm.jks
+    secret: mysecret
+    alias: myalias
+    password: mypassword
 
 server:
-  port: 6001
+  port: 9001
 
-management:
-  endpoint:
-    health:
-      enabled: true
+

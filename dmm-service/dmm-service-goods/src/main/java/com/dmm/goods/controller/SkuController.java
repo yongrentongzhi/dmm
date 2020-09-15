@@ -50,18 +50,18 @@ public class SkuController {
     }
 
     @GetMapping("/search/{spuId}")
-    public Result findPageByCategoryId(@PathVariable("spuId") Long spuId) {
-    QueryWrapper<Sku> queryWrapper=new QueryWrapper<>();
-    queryWrapper.eq("spu_id",spuId);
-    List<Object> skuList = skuService.listObjs(queryWrapper);
-    return new Result(StatusCode.OK, true, "按spuId搜索Sku列表", skuList);
+    public Result findPageBySpuIdId(@PathVariable("spuId") Long spuId) {
+        QueryWrapper<Sku> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("spu_id", spuId);
+        List<Object> skuList = skuService.listObjs(queryWrapper);
+        return new Result(StatusCode.OK, true, "按spuId搜索Sku列表", skuList);
     }
 
 
-    @PostMapping("/search/{skuName}/{pageNum}/{size}")
-    public Result<Page<Sku>> findPage(@PathVariable("pageNum") Integer pageNum,
-                                        @PathVariable("size") Integer size,
-                                        @PathVariable("skuName") String skuName) {
+    @GetMapping("/search/{skuName}/{pageNum}/{size}")
+    public Result<Page<Sku>> findPageByName(@PathVariable("pageNum") Integer pageNum,
+                                            @PathVariable("size") Integer size,
+                                            @PathVariable("skuName") String skuName) {
         QueryWrapper<Sku> wrapper = new QueryWrapper<>();
         if (!StringUtils.isEmpty(skuName)) {
             wrapper.likeRight("title", skuName);
@@ -70,5 +70,34 @@ public class SkuController {
         Page<Sku> skuPage = skuService.page(page, wrapper);
 
         return new Result<Page<Sku>>(StatusCode.OK, true, "按名称搜索Sku列表", skuPage);
+    }
+
+    @GetMapping("/search/{status}/{pageNum}/{size}")
+    public Result<Page<Sku>> findPageByStatus(@PathVariable("pageNum") Integer pageNum,
+                                              @PathVariable("size") Integer size,
+                                              @PathVariable("status") Long status) {
+        QueryWrapper<Sku> wrapper = new QueryWrapper<>();
+        if (!StringUtils.isEmpty(status)) {
+            wrapper.likeRight("status", status);
+        }
+        Page<Sku> page = new Page<>(pageNum, size);
+        Page<Sku> skuPage = skuService.page(page, wrapper);
+
+        return new Result<Page<Sku>>(StatusCode.OK, true, "按状态搜索Sku列表", skuPage);
+    }
+
+    @PostMapping("/search")
+    public Result<List<Sku>> findByStatusAndSpuId(Long spuId,Integer status) {
+        QueryWrapper<Sku> wrapper = new QueryWrapper<>();
+        if (!StringUtils.isEmpty(spuId)) {
+            wrapper.eq("spu_id",spuId);
+        }
+        if (!StringUtils.isEmpty(status)) {
+            wrapper.eq("status", status);
+        }
+       List<Sku> skuList=skuService.list(wrapper);
+
+
+        return new Result<>(StatusCode.OK, true, "按状态搜索Sku列表", skuList);
     }
 }

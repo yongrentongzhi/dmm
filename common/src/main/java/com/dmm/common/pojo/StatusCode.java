@@ -11,9 +11,13 @@ public class StatusCode implements Serializable {
     public static final Integer REMOTE_ERROR = 2004;//远程调用失败
     public static final Integer REPEAT_ERROR = 2005;//重复操作
     public static final Integer NOTFOUND_ERROR = 2006;//没有对应的抢购数据
-    //商品状态相关
-    private static final  Integer Spu_on_sale=1000;
-    private static final  Integer Spu_off_sale=1001;
-    private static final  Integer Spu_on_check=1003;
+    //Spu商品状态相关
+    public static final  Integer Spu_on_sale=1000;
+    public static final  Integer Spu_off_sale=1001;
+    public static final  Integer Spu_on_check=1003;
 
+    //Sku商品状态相关
+    public static final  Integer Sku_on_sale=1000;
+    public static final  Integer Sku_off_sale=1001;
+    public static final  Integer Sku_on_check=1003;
 }

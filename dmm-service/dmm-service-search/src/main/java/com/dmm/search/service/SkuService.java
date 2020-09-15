@@ -6,16 +6,16 @@ import java.util.Map;
 public interface SkuService {
 
     /**
-     * //1.调用 goods微服务的fegin 查询 符合条件的sku的数据
-       //2.调用spring data elasticsearch的API 导入到ES中
+     * 1.调用 goods微服务的fegin 查询 符合条件的sku的数据
+     * 2.调用spring data elasticsearch的API 导入到ES中
      */
-    void  importEs();
+    void importEs(Long spuId);
 
+    void exportEs(Long spuId);
 
     /**
-     *
-     * @param searchMap
-     * @return
+     * @param searchMap 封装搜索条件的map
+     * @return 包含响应的map
      */
-    Map search(Map<String,String> searchMap);
+    Map search(Map<String, String> searchMap);
 }

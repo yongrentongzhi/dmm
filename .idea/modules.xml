@@ -13,8 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/dmm-service/dmm-service-search/dmm-service-search.iml" filepath="$PROJECT_DIR$/dmm-service/dmm-service-search/dmm-service-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/dmm-service/dmm-service-shoppingCart/dmm-service-shoppingCart.iml" filepath="$PROJECT_DIR$/dmm-service/dmm-service-shoppingCart/dmm-service-shoppingCart.iml" />
       <module fileurl="file://$PROJECT_DIR$/dmm-service/dmm-service-user/dmm-service-user.iml" filepath="$PROJECT_DIR$/dmm-service/dmm-service-user/dmm-service-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dmm-web/dmm-web.iml" filepath="$PROJECT_DIR$/dmm-web/dmm-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dmm-web/dmm-web-item/dmm-web-item.iml" filepath="$PROJECT_DIR$/dmm-web/dmm-web-item/dmm-web-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/dmm-web/dmm-web-search/dmm-web-search.iml" filepath="$PROJECT_DIR$/dmm-web/dmm-web-search/dmm-web-search.iml" />
     </modules>
   </component>

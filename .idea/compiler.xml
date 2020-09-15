@@ -14,7 +14,6 @@
         <module name="dmm-oauth" />
         <module name="dmm-service-user" />
         <module name="dmm-eureka" />
-        <module name="dmm-web-item" />
         <module name="dmm-service-shoppingCart" />
         <module name="dmm-service-search" />
       </profile>
